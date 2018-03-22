@@ -1,0 +1,13 @@
+.hidden{
+  visibility:hidden;
+}
+.previous-div{
+  display:block;
+  float:left;
+  vertical-align:middle;
+}
+.next-div{
+  display:block;
+  float:right;
+  vertical-align:middle;
+}

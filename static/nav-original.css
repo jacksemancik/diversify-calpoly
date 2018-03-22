@@ -1,0 +1,58 @@
+header.navigation{
+  position:fixed;
+  z-index:0;
+  width:100%;
+}
+.navigation ul{
+  list-style-type:none;
+  display:inline-block;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  background-color: #333;
+}
+.navigation ul li.none a:hover{
+  background-color:black;
+  color:white;
+  text-decoration:none;
+}
+.navigation ul li.none a.shrink{
+  padding: 14px 20px;
+  font-size:20px;
+}
+.navigation li.none a{
+  font-size:18px;
+  vertical-align: middle;
+  padding:35px 16px;
+  float:left;
+  margin:auto;
+}
+
+
+.navigation ul li a{
+  vertical-align:middle;
+  text-decoration:none;
+  display:block;
+  font-size: 16px;
+  padding:35px 16px;
+  color:white;
+  margin:auto;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.navigation ul span li a:hover{
+  color:black;
+  background-color:white;
+  border:solid black 1px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.navigation ul span li a.shrink{
+  padding: 14px 16px;
+}

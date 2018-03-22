@@ -1,0 +1,28 @@
+body, html{
+  font-family:'Muli',sans-serif;
+  height:100%;
+  margin:0;
+}
+h2{
+  text-align:center;
+}
+sup {
+  vertical-align:super;
+  font-size:smaller;
+}
+div.content{
+  height:auto;
+  padding-top:10%;
+}
+div.content div.text-container{
+  width:75%;
+  margin:auto;
+
+}
+div.content div.text-container p{
+  text-align:justify;
+  margin:auto;
+}
+span.indent, div.content div.text-container{
+  text-indent:5%;
+}

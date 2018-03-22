@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+  <head>
+    {% include 'universal.html' %}
+    {% block addcss %}{% endblock %}
+  </head>
+  <body>
+      {% block navbar %}
+        {% include 'nav.html' %}
+      {% endblock %}
+    <div class="content-container">
+      <div class="content {% block pagecontent %}{% endblock %}">
+        <div class="parallax">
+          <h2>{{ content.title }}</h2>
+        </div>
+        <div class="text-container">
+          <p>{% block content %}{% endblock %}</p>
+        </div>
+      </div>
+      <div class="btns">
+        {% block buttonhtml %}{% endblock %}
+      </div>
+    </div>
+    <div class="footer">
+      {% include 'foot.html' %}
+    </div>
+  </body>
+</html>
