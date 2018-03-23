@@ -1,13 +1,24 @@
 .hidden{
   visibility:hidden;
 }
+.previous-div a{
+  text-align:center;
+  display:inline-block;
+  vertical-align:middle;
+  margin:auto;
+}
+.next-div a{
+  text-align:center;
+  display:inline-block;
+  vertical-align:middle;
+  margin:auto;
+}
 .previous-div{
   display:block;
   float:left;
-  vertical-align:middle;
 }
+
 .next-div{
   display:block;
   float:right;
-  vertical-align:middle;
 }

@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block addcss %}<link rel="stylesheet" href="{% static 'state.css' %}" />{% endblock %}
+{% block pagecontentclass %}state-content{% endblock %}
+{% block content %}
+  {% include 'state-content.html' %}
+{% endblock %}
+{% block buttonhtml %}{% include 'state-btns.html' %}{% endblock %}

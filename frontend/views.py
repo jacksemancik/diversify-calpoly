@@ -9,7 +9,7 @@ def homepage(request):
 def institutional(request):
     page = 2
     content = Content.objects.get(page=page)
-    return render(request, 'institutional.html', {'content':content,'text':textrender})
+    return render(request, 'institutional.html', {'content':content})
 
 def state(request):
     page = 3

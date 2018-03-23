@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block addcss %}<link rel="stylesheet" href="{% static 'references.css' %}" />{% endblock %}
+{% block pagecontentclass %}reference-content{% endblock %}
+{% block content %}
+  {% include 'reference-content.html' %}
+{% endblock %}
+{% block buttonhtml %}{% include 'reference-btn.html' %}{% endblock %}

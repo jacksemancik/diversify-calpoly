@@ -2,4 +2,7 @@
 {% load static %}
 {% block addcss %}<link rel="stylesheet" href="{% static 'institutional.css' %}" />{% endblock %}
 {% block pagecontentclass %}institutional-content{% endblock %}
-{% block buttonhtml %}{% include 'institutional-btn.html' %}{% endblock %}
+{% block content %}
+  {% include 'institutional-content.html' %}
+{% endblock %}
+{% block buttonhtml %}{% include 'institutional-btns.html' %}{% endblock %}
